@@ -18,7 +18,6 @@ public class task2 {
             System.out.format("Vvedite slovo%s :", q);
             String s = stdIn.readLine();
             if (s.length() > 0) {
-                m1 = s.split("_");
                 m1 = s.split(" ");
                 q++;
             } else {
